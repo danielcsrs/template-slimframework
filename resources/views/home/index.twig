@@ -1,0 +1,32 @@
+{% extends '_app/layout.twig' %}
+
+{% block title %} Página inicial {% endblock %}
+
+{% block content %}
+	<div class="container">
+			<h2>Área logada</h2>
+			<p>Olá {{ auth.user.name }}</p>
+			<div class="row">
+					
+					<div class="col">
+							<a href="#">
+									<h6>Bloco 1</h6>
+									<p>Conteúdo de exemplo</p>
+							</a>
+					</div>
+
+					<div class="col">
+							<a href="#">
+									<h6>Bloco 1</h6>
+									<p>Conteúdo de exemplo</p>
+							</a>
+					</div>
+					
+			</div>
+	</div>
+{% endblock %}
+
+{% block modal %}{% endblock %}
+{% block scripts %}
+<script></script>
+{% endblock %}

@@ -1,0 +1,26 @@
+{
+    "name": "listajobs/site",
+    "description": "Site ListaJobs",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniel Castro",
+            "email": "danielcastro.rs@gmail.com",
+            "homepage": "https://www.danieldcs.com.br/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.11",
+        "slim/twig-view": "^2.4",
+        "slim/flash": "^0.4.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "slim/csrf": "^0.8.3",
+        "respect/validation": "^1.1",
+        "illuminate/database": "^5.7"
+    }
+}
